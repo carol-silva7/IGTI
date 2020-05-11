@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta name="viewport" content="device-width, inicial-scale=1.0" />
+    <link rel="stylesheet" href="./css/form.css">
+    <title>Formulário</title>
+  </head>
+  <body>
+    <form action="">
+      <label>
+      <p>
+        <textarea name="Conteudo" id="Conteudo" cols="30" rows="30">
+Conteúdo</textarea
+        >
+      </p>
+      <p><input type="text" id="Nameinput1" placeholder="Informe o seu nome" /></p>
+      <p>
+        <input type="checkbox" id="input2" />
+        Tenho conhecimento prévio sobre JavaScript
+      </p>
+      <p>
+        <input type="checkbox" id="input2" />
+        Tenho conhecimento prévio sobre CSS
+      </p>
+      <p>
+        <input type="checkbox" id="input2" />
+        Tenho conhecimento prévio sobre HTML
+      </p>
+      <input type="checkbox" id="input2" />
+        Tenho conhecimento prévio sobre npm
+      </p>
+      <h2>Já fez algum curso de programação web?</h2>
+      <p>
+        <input
+          type="radio"
+          id="input3"
+          name="opcao"
+          placeholder="Informe"
+        />Sim
+      </p>
+      <p>
+        <input
+          type="radio"
+          id="input3"
+          name="opcao"
+          placeholder="Informe"
+        />Não
+      </p>
+      <p>
+        <input type="email" id="input4" placeholder="Informe o seu e-mail" />
+      </p>
+      <p>Data de conclusão - Graduação: <input type="date" id="input6" /></p>
+      <p><input type="submit" id="submit" placeholder="Enviar" /></p>
+    </label>
+    </form>
+
+    <h2>Nomes cadastrados até o momento:</h2>
+    <div id="names"></div>
+    
+    <span id="nameLength"></span>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
